@@ -421,6 +421,7 @@ export default class VideoPlayer extends Component {
         // state.resizeMode = state.isFullscreen === true ? 'cover' : 'contain';
 
         // this.setState( state );
+        this.player.ref.presentFullscreenPlayer()
     }
 
     /**
